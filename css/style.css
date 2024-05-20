@@ -1,0 +1,138 @@
+:root {
+  --logo-color: #95e1d3;
+  --main-color: #333333;
+  --paragraph-color: #b6b6b6;
+  --highlight-color: #f38181;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: 18px;
+  line-height: calc(22 / 15);
+}
+
+.container {
+  width: 1224px;
+  height: 100%;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+.header-link.current {
+  color: var(--highlight-color);
+  border-bottom: 3px solid var(--highlight-color);
+  padding-bottom: 13px;
+}
+
+/* HEADER */
+
+.header {
+  height: 45px;
+  margin-bottom: 68px;
+}
+
+.header-logo {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: calc(37 / 30);
+
+  color: var(--logo-color);
+}
+
+.header-flex {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  gap: 55px;
+}
+
+.header-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(17 / 14);
+
+  color: var(--logo-color);
+}
+
+/* Hero */
+.hero {
+  margin: 0 auto;
+  text-align: center;
+
+  height: 136px;
+  margin-bottom: 65px;
+}
+.hero-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-text {
+  font-family: Kaushan Script, sans-serif;
+  font-size: 24px;
+  line-height: calc(35 / 24);
+
+  margin-bottom: 20px;
+}
+.hero-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: calc(37 / 30);
+
+  margin-bottom: 40px;
+}
+
+.hero-border {
+  height: 4px;
+  width: 60px;
+  background-color: var(--highlight-color);
+}
+
+/* About */
+
+.about {
+  height: 253px;
+  margin: 0 auto;
+  /* width: 1168px; */
+}
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 69px;
+  width: 100%;
+}
+.about-item {
+  flex-basis: calc((100% - 69px * 2) / 3);
+}
+.about-item-title {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: calc(17 / 14);
+
+  margin-bottom: 20px;
+}
+.about-item-text {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  line-height: calc(22 / 15);
+
+  width: 275px;
+
+  color: var(--paragraph-color);
+}
