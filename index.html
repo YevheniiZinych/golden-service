@@ -12,27 +12,30 @@
     />
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
-      <div class="container header-flex">
-        <a class="header-logo" href="index.html">MoGo</a>
-        <nav class="header-nav">
-          <ul class="header-list">
-            <li class="header-items">
-              <a href="" class="header-link current">ABOUT</a>
+      <div class="container header--flex">
+        <a class="header__logo" href="index.html">MoGo</a>
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__items">
+              <a href="" class="header__nav__link header__nav__link--current"
+                >ABOUT</a
+              >
             </li>
-            <li class="header-items">
-              <a href="" class="header-link">SERVICE</a>
+            <li class="header__nav__items">
+              <a href="" class="header__nav__link">SERVICE</a>
             </li>
-            <li class="header-items">
-              <a href="" class="header-link">WORK</a>
+            <li class="header__nav__items">
+              <a href="" class="header__nav__link">WORK</a>
             </li>
-            <li class="header-items">
-              <a href="" class="header-link">BLOG</a>
+            <li class="header__nav__items">
+              <a href="" class="header__nav__link">BLOG</a>
             </li>
-            <li class="header-items">
-              <a href="" class="header-link">CONTACT</a>
+            <li class="header__nav__items">
+              <a href="" class="header__nav__link">CONTACT</a>
             </li>
           </ul>
         </nav>
@@ -175,7 +178,13 @@
           <a href="#!" rel="noopener noreferrer">Laaqiq</a>
         </p>
         <form action="" class="footer-form">
-          <input type="email" class="form-input" placeholder="Your Email..." />
+          <label>
+            <input
+              type="email"
+              class="form-input"
+              placeholder="Your Email..."
+            />
+          </label>
           <button type="submit" class="form-submit">Subscribe</button>
         </form>
       </div>
