@@ -21,19 +21,18 @@
   color: var(--logo-color);
 }
 
-.header__nav .header__nav__link.header__nav__link--current {
+.header-nav__link--current {
   color: var(--highlight-color);
   border-bottom: 3px solid var(--highlight-color);
 }
-
-.header__nav__list {
+.header-nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   gap: 55px;
 }
 
-.header__nav__link {
+.header-nav__link {
   position: relative;
   padding: 13px 0;
   font-family: "Montserrat", sans-serif;
@@ -42,8 +41,7 @@
   line-height: 1.2142857143;
   color: var(--logo-color);
 }
-
-.header__nav__link::after {
+.header-nav__link::after {
   position: absolute;
   content: "";
   display: block;
@@ -59,19 +57,16 @@
   transition: transform 250ms linear;
   transition: transform 250ms linear, -webkit-transform 250ms linear;
 }
-
-.header__nav__link:hover::after {
+.header-nav__link:hover::after {
   -webkit-transform-origin: left center;
           transform-origin: left center;
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
-
-.header__nav__link:not(:hover):after {
+.header-nav__link:not(:hover):after {
   -webkit-transform-origin: right center;
           transform-origin: right center;
 }
-
-.header__nav__link.header__nav__link--current:hover::after {
+.header-nav__link--current:hover::after {
   content: none;
 }/*# sourceMappingURL=main.css.map */
