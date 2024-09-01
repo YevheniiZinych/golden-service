@@ -1,0 +1,48 @@
+.footer {
+  height: 60px;
+  width: 1224px;
+
+  margin: 0 auto;
+
+  border-top: 1px solid rgb(182, 182, 182);
+}
+
+.footer--flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__text {
+}
+.footer-form {
+  display: flex;
+}
+.footer-form__input {
+  display: block;
+  width: 230px;
+  height: 39px;
+  padding: 10px 10px;
+
+  border: 1px solid rgb(182, 182, 182);
+
+  outline: none;
+}
+
+.footer-form__input::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+
+  color: $paragraph-color;
+}
+
+.footer-form__submit-btn {
+  padding: 11px 38.5px;
+  color: #ffffff;
+
+  background-color: $logo-color;
+
+  border: none;
+
+  cursor: pointer;
+}

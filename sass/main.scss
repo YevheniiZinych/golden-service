@@ -1,1 +1,11 @@
-@import "./components/header";
+@import './utils/normalize';
+@import './utils/container';
+@import './utils/vars';
+@import './utils/mixin';
+@import './utils/placeholder';
+
+@import './components/body';
+@import './components/header';
+@import './components/about';
+@import './components/team';
+@import './components/footer';

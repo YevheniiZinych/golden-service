@@ -10,19 +10,19 @@
   }
 
   &__logo {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: calc(37 / 30);
 
-    color: var(--logo-color);
+    color: $logo-color;
   }
 }
 
 .header-nav {
   &__link--current {
-    color: var(--highlight-color);
-    border-bottom: 3px solid var(--highlight-color);
+    color: $highlight-color;
+    border-bottom: 3px solid $highlight-color;
   }
 
   &__list {
@@ -35,16 +35,16 @@
   position: relative;
   padding: 13px 0;
 
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: calc(17 / 14);
 
-  color: var(--logo-color);
+  color: $logo-color;
 
   &::after {
     position: absolute;
-    content: "";
+    content: '';
     display: block;
 
     bottom: 0;
@@ -52,7 +52,7 @@
 
     width: 100%;
     height: 3px;
-    background-color: var(--highlight-color);
+    background-color: $highlight-color;
 
     transform: scaleX(0);
 

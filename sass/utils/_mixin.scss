@@ -1,0 +1,6 @@
+@mixin mainBorder($color, $width) {
+  height: 4px;
+  width: $width;
+  background-color: $color;
+  margin: 0 auto;
+}
